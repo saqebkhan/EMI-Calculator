@@ -11,7 +11,6 @@ const EMIcalculator = (props) => {
   const [emi, setEMI] = useState("");
   const [table, setTable] = useState(false);
   const [history, setHistory] = useState([]);
-  const [clearHistory, setClearHistory] = useState([]);
 
   let balance = emi * n;
   const arr = [];
@@ -33,6 +32,7 @@ const EMIcalculator = (props) => {
       interest: r,
       emi: emi,
     };
+
     setHistory((prevHistory) => {
       if (history.length < 10) {
         return [data, ...prevHistory];
@@ -64,10 +64,7 @@ const EMIcalculator = (props) => {
         <h3 className="total">Total: {emi * n}</h3>
         <h3 className="total-intereset">Total-Interest: {emi * n - p}</h3>
         <h3 className="history-head">History</h3>
-        <button
-        className="clear-history"
-          onClick={() => setClearHistory(history.splice(0, history.length))}
-        >
+        <button className="clear-history" onClick={() => setHistory([])}>
           Clear History
         </button>
       </div>

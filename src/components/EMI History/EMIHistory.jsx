@@ -1,5 +1,5 @@
 import React from "react";
-import "./EMIcalculator.css";
+import "../EMI Styles/EMIcalculator.css";
 import EMIHistoryItem from "./EMIHistoryItem";
 
 const EMIHistory = (props) => {

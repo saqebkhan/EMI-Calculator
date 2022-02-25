@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "./EMIcalculator.css";
-import EMIHistory from "./EMIHistory";
+import "./EMI Styles/EMIcalculator.css";
+import EMIHistory from "./EMI History/EMIHistory";
 import EMIinputs from "./EMIinputs";
-import EMITable from "./EMITable";
+import EMITable from "./EMI Table/EMITable";
 
 const EMIcalculator = (props) => {
   const [p, setP] = useState("");

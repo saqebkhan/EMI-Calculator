@@ -23,12 +23,12 @@ const EMIinputs = (props) => {
             onChange={(e) => props.setedR(e.target.value)}
           />
           <button
-            variant="outline-success"
             onClick={props.emiHandeler}
             className="calculate-btn"
           >
             Calculate EMI
           </button>
+          
         </div>
         </div>
     );

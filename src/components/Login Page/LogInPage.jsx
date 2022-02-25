@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import EMIcalculator from "./EMIcalculator";
+import EMIcalculator from "../EMIcalculator";
 import './LogInPage.css'
 
 const LogInPage = () => {

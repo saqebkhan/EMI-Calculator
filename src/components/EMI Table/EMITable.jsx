@@ -1,5 +1,5 @@
 import React from "react";
-import "./EMIcalculator.css";
+import "../EMI Styles/EMIcalculator.css";
 
 const EMITable = (props) => {
   return (

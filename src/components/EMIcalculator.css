@@ -1,0 +1,169 @@
+.logout-btn {
+    height: 40px;
+    width: 100px;
+    padding: 6px;
+    float: right;
+    margin-top: -80px;
+    color: rgb(62, 90, 81);
+    border: none;
+    background: #829bff;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-radius: 12px;
+  }
+  .logout-btn:hover {
+    background: #596bb4;
+    color: rgb(255, 233, 191);
+    box-shadow: 1px 2px 2px 1px gray;
+  }
+.calculate-btn {
+  width: 120px;
+  padding: 8px;
+  border: 1.5px solid #c7bebe;
+  border-radius: 6px;
+  background-color: rgb(107, 0, 179);
+  color: rgb(255, 255, 255);
+  margin: 24px;
+}
+.input-emi {
+  height: 100%;
+  width: 20%;
+  outline: none;
+  padding: 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  margin-left: 24px;
+  text-align: center;
+}
+.input-emi:focus {
+  border-color: #4070f4;
+}
+
+.pay-table {
+  border-collapse: collapse;
+  border-spacing: 20px;
+  width: 150%;
+  border: 1px solid green;
+}
+.pay-table th,
+.pay-table td {
+  text-align: left;
+  padding: 15px;
+}
+.pay-table tr:nth-child(even) {
+  background-color: rgb(203, 255, 194);
+  color: rgb(0, 0, 0);
+}
+.pay-table th {
+  background: rgb(0, 153, 255);
+  color: white;
+}
+.pay-table tr:nth-child(odd):hover {
+  background-color: rgba(251, 255, 0, 0.699);
+}
+.pay-table tr:nth-child(even):hover {
+  background-color: rgb(92, 255, 71);
+}
+.calc {
+  background-color: rgb(255, 252, 226);
+}
+h1 {
+  color: rgb(107, 0, 179);
+  font-size: 54px;
+  font-family: "Arial Narrow Bold";
+  line-height: 58px;
+  padding: 20px;
+  text-align: center;
+}
+.total {
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.tabs {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.history-table {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin-left: 200px;
+  width: 90%;
+  text-align: center;
+}
+.history-heads th {
+  margin-left: 120px;
+  padding: 16px;
+}
+.history-table th {
+  background: rgb(174, 0, 255);
+  color: rgb(236, 154, 154);
+}
+.history-table tr:nth-child(even):hover {
+  background-color: rgb(71, 255, 255);
+}
+.history-table tr:nth-child(odd):hover {
+  background-color: rgba(38, 255, 0, 0.699);
+}
+.history-table th {
+  background: rgb(85, 149, 0);
+  color: rgb(196, 255, 230);
+}
+.history-table tr:nth-child(even) {
+  background-color: rgb(194, 255, 250);
+  color: rgb(0, 0, 0);
+}
+.history-table th,
+.history-table td {
+  text-align: left;
+  padding: 15px;
+}
+.history-head {
+  display: inline-block;
+  margin-left: 525px;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.heads {
+  display: flex;
+}
+.history-btn{
+  width: 80px;
+  padding: 4px;
+  border: 1.5px solid #c7bebe;
+  border-radius: 6px;
+  background-color: rgb(107, 0, 179);
+  color: rgb(255, 255, 255);
+  margin: 10px 10px 10px -16px;
+}
+.total-intereset{
+    display: inline-block;
+  margin-left: 100px;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+.hide-history{
+  width: 80px;
+  padding: 4px;
+  border: 1.5px solid #c7bebe;
+  border-radius: 6px;
+  background-color: rgb(107, 0, 179);
+  color: rgb(255, 255, 255);
+  margin: 10px 10px 10px -16px;
+}
+.clear-history{
+  width: 120px;
+  padding: 4px;
+  border: 1.5px solid #c7bebe;
+  border-radius: 6px;
+  background-color: rgb(107, 0, 179);
+  color: rgb(255, 255, 255);
+  margin-left: 160px ;
+}
+
